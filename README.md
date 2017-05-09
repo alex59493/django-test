@@ -5,9 +5,11 @@ This repo contains all the basics to build a Dockerized Djano Resful API
 ## Set up
 
 #### Build the djangoapi docker image :
+`cd djangoapi-dockerimage`
 `docker build -t djangoapi .`
 
 #### Run app services
+`cd ..`
 `docker-compose up`
 
 #### Stop app services
